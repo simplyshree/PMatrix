@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { AppShell } from "./AppShell";
-import { PageHeader, Panel, PopButton } from "./bits";
+import { PageHeader, Panel } from "./bits";
 
 export function WorkspacePage({
   eyebrow,
@@ -22,8 +22,11 @@ export function WorkspacePage({
         title={title}
         subtitle={description}
         action={
-          <Link to="/studio">
-            <PopButton>Create Flavor Matrix</PopButton>
+          <Link
+            to="/studio"
+            className="inline-flex items-center justify-center rounded-full border-2 border-ink bg-primary px-6 py-3 font-display text-sm font-semibold text-primary-foreground shadow-[4px_4px_0_0_var(--ink)] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[1px_1px_0_0_var(--ink)]"
+          >
+            Create Flavor Matrix
           </Link>
         }
       />
