@@ -10,11 +10,6 @@ export const NAV: NavItem[] = [
   { to: "/library", label: "Matrix Library", dot: "bg-violet" },
   { to: "/lab", label: "Fermentation Lab", dot: "bg-cyan" },
   { to: "/fingerprint", label: "Flavor Fingerprint", dot: "bg-amber" },
-  { to: "/validation", label: "Validation", dot: "bg-ink/30" },
-  { to: "/optimization", label: "Optimization", dot: "bg-ink/30" },
-  { to: "/research", label: "Research", dot: "bg-ink/30" },
-  { to: "/ideathon", label: "Ideathon Mode", dot: "bg-ink/30" },
-  { to: "/settings", label: "Settings", dot: "bg-ink/30" },
 ];
 
 export function TopBar() {
